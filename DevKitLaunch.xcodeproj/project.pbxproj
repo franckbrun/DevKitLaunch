@@ -10,6 +10,7 @@
 		D5B226ED1D742D2F00DE356B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B226EC1D742D2F00DE356B /* AppDelegate.swift */; };
 		D5B226EF1D742D2F00DE356B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B226EE1D742D2F00DE356B /* Assets.xcassets */; };
 		D5B226F21D742D2F00DE356B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B226F01D742D2F00DE356B /* MainMenu.xib */; };
+		D5B226FC1D7431BB00DE356B /* SimpleTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B226FB1D7431BB00DE356B /* SimpleTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		D5B226EE1D742D2F00DE356B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5B226F11D742D2F00DE356B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D5B226F31D742D2F00DE356B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B226FB1D7431BB00DE356B /* SimpleTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				D5B226EE1D742D2F00DE356B /* Assets.xcassets */,
 				D5B226F01D742D2F00DE356B /* MainMenu.xib */,
 				D5B226F31D742D2F00DE356B /* Info.plist */,
+				D5B226FB1D7431BB00DE356B /* SimpleTask.swift */,
 			);
 			path = DevKitLaunch;
 			sourceTree = "<group>";
@@ -90,6 +93,7 @@
 				TargetAttributes = {
 					D5B226E81D742D2F00DE356B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 58S349FGKE;
 					};
 				};
 			};
@@ -128,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B226FC1D7431BB00DE356B /* SimpleTask.swift in Sources */,
 				D5B226ED1D742D2F00DE356B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,7 +237,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Applications/iotdk-ide-mac";
 				INFOPLIST_FILE = DevKitLaunch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moxadventu.DevKitLaunch;
@@ -244,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DevKitLaunch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -271,6 +279,7 @@
 				D5B226F81D742D2F00DE356B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
